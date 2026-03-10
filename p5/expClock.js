@@ -17,15 +17,15 @@ function draw() {
   background(120);
 
   numHours = hour(); //variable to hold the current hour
-  let outerRadius = width / 5; //sets radius of hour ring
-  let hourSize = 70; //sets the size of the shapes in the hour ring
+  let outerRadius = width / 4; //sets radius of hour ring
+  let hourSize = 80; //sets the size of the shapes in the hour ring
   let o = color("orange"); //beginning color to hour ring
   let p = color("purple"); //ending color to hour ring
   let gradeHour = 0; //hour gradient
 
   numMinutes = minute(); //variable to hold the current minute
-  let innerRadius = width / 7; //sets the radius of the minute ring
-  let minuteSize = 20; //sets the size of the minute shape
+  let innerRadius = width / 6; //sets the radius of the minute ring
+  let minuteSize = 30; //sets the size of the minute shape
   let b = color(0); //beginning color to minute ring
   let w = color(255); //ending color to minute ring
   let gradeMin = 0; //minute gradient
